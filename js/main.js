@@ -35,7 +35,7 @@ contenido.addEventListener("click", async (e) => {
     contenido.innerHTML = html;
 });
 
-
+//Azure Function
 aCines.addEventListener("click", async () => {
     
     const response = await fetch("https://mi-api-azurecinestar-gdf7g9dadmfzcyaq.mexicocentral-01.azurewebsites.net/api/getCines")
